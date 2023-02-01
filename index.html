@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <form action="destino.php">
+            <p>
+                <h2>Accede a ti Área Clientes</h2>
+                Elige tu documento
+                <br>
+                <input type="radio" name="doc"> DNI o tarjeta de residencia 
+                <br>
+                <input type="radio" name="doc"> Pasaporte 
+                <br> <br>
+            
+                Número de documento
+                <br>
+                <input type="number" name="numero" id="numero" placeholder="DNI o tarjeta de residencia">
+                <br> <br>
+            
+                Fecha de naciemiento
+                <br>
+                <input type="date" name="date" id="date">
+                <br> <br>
+            
+                <input type="checkbox"> Recordar
+            
+                <br> <br>
+                <input type="submit" name="enviar" id="">
+            </p>
+
+        </form>
+
+    <hr>
+
+        <form action="destino.php">
+
+            <h2>Empiza creando tu usuario</h2>
+
+            <p>
+                
+                <input type="text" name="nom" id="nom" placeholder="Nombre (como sale en el DNI)">
+                <br>
+                <input type="text" name="nom" id="nom" placeholder="1ºapellido (como sale en el DNI)">
+                <input type="text" name="nom" id="nom" placeholder="2ºapellido (como sale en el DNI)">
+                
+            </p>
+
+            <p>
+                <select name="document" id="document">
+                    <option value="" disabled selected>DNI/NIF/CERT. AEAT</option>
+                    <option value="dni">DNI</option>
+                    <option value="nif">NIF</option>
+                    <option value="cert_aeat">CERT.AEAT</option>
+                </select>
+
+                <input type="number" name="numero" id="numero" placeholder="Número de documento">
+            </p>
+
+            <p>
+                <input type="telf" placeholder="Móvil">
+                <input type="email" name="email" id="email" placeholder="Email">
+            </p>
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
